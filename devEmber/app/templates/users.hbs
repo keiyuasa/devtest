@@ -1,0 +1,8 @@
+<h1>List of Users</h1>
+{{#each model as |user|}}
+  <div class="list">
+    <span class="user_id">{{#link-to "user" user}}View{{/link-to}}</span>
+    <span class="full_name"> {{user.first_name}} {{user.last_name}}</span>
+  </div>
+{{/each}}
+<br>
