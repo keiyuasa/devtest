@@ -1,0 +1,54 @@
+body {
+  background-color: lightgray;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #66D;
+  margin: 0px;
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #66D;
+  margin: 0px;
+  padding: 20px;
+}
+
+.main {
+  width: 90%;
+  min-height: 400px;
+}
+
+.list {
+  margin-left: 10px;
+  font-size: 16pt;
+  line-height: 20pt;
+}
+
+.user_id {
+  font-size: 20px;
+  width: 200px;
+  min-width: 200px;
+  color: green;
+}
+
+.full_name {
+  color: black;
+}
+
+.first_name {
+  font-size: 20px;
+}
+
+.last_name {
+  font-size: 20px;
+}
+
+.footer-link {
+  margin: 0 10px;
+  font-size: 20px;
+}
